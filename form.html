@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulaire</title>
+</head>
+<body>
+  <h1>Formulaire</h1>
+  <form action="FormServlet" method="POST">
+    Prénom : <input type="text" name="firstName"><br><br>
+    Nom : <input type="text" name="lastName"><br><br>
+    Date de naissance : <input type="text" name="birthDay" placeholder="mm/dd/yyyy"><br><br>
+    <input type="radio" id="male" name="sex" value="Homme" checked>
+    <label for="male">Homme</label>
+    <input type="radio" id="female" name="sex" value="Femme">
+    <label for="female">Femme</label>
+    <br><br>
+
+    <input type="submit" value="Envoyer">
+    <p><a href="ReadCookie">Lire les cookies</a></p>
+  </form>
+</body>
+</html>
